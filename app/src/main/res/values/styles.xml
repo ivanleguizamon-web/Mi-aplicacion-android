@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BotonTransparente" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/boton_transparente</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:buttonTint">#FFFFFF</item>
+        <item name="android:textSize">@dimen/text_size_boton</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

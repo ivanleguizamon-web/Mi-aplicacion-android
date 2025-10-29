@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_bienvenida">54sp</dimen>
+    <dimen name="margen_inferior_bienvenida">72dp</dimen>
+
+    <dimen name="text_size_boton">36sp</dimen>
+    <dimen name="padding_horizontal_boton">80dp</dimen>
+    <dimen name="padding_vertical_boton">36dp</dimen>
+</resources>

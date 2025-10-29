@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marcianito_android"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margen_inferior_bienvenida"
+        android:text="@string/texto_bienvenida"
+
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/text_size_bienvenida"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_transparente"
+        android:paddingHorizontal="@dimen/padding_horizontal_boton"
+        android:paddingVertical="@dimen/padding_vertical_boton"
+        android:text="@string/boton_enter"
+        android:textColor="#ffffff"
+        android:textColorLink="#FBF0F0"
+        android:textSize="@dimen/text_size_boton"
+        app:rippleColor="#FFFFFF"
+        app:strokeColor="#FFFFFF" />
+</LinearLayout>
